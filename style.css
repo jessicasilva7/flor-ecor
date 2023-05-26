@@ -1,0 +1,30 @@
+@import url("./css/header.css");
+@import url("./css/sectionBanner.css");
+@import url("./css/carrosel.css");
+@import url("./css/sectionCategoria.css");
+@import url("./css/sectionContato.css");
+@import url("./css/footer.css");
+:root {
+    --cor-principal: #658e56;
+    --cor-secundaria: #e6edce;
+    --cor-terciaria: #97bf4a;
+    --cor-fundo-menu: #C1D0B5;
+    --cor-verde-escuro: hsl(129, 21%, 19%);
+    --cor-fundo-body: #f7fffb;
+    --branco: #FFF;
+    --titulo: 'Itim', cursive;
+    --paragrafo: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo-body);
+    
+}
+h1, h2{
+    font-family: var(--titulo);
+    font-size: 20px;
+}
+p{
+    font-family: var(--paragrafo);
+    font-size: 16px;
+}

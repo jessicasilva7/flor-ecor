@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/tree.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Flor&Co</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+
+        <div class="container">
+            <input type="checkbox" id="menu" class="container_botao">
+
+            <label for="menu">
+                <span class="cabecalho_menu-hamburguer container_imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu-titulo">Categoria</li>
+                <li class="lista_menu-iten"><a href="#" class="lista_menu-link">Plantas</a></li>
+                <li class="lista_menu-iten"><a href="#" class="lista_menu-link">Acessorios</a></li>
+                <li class="lista_menu-iten"><a href="#" class="lista_menu-link">Cuidados com a planta</a></li>
+                <li class="lista_menu-iten"><a href="#" class="lista_menu-link">Comunidade</a></li>
+                <li class="lista_menu-iten"><a href="#" class="lista_menu-link">Contato</a></li>
+            </ul>
+            <img src="./img/tree-svgrepo-com.svg" alt="" class="container_imagem">
+            <h1 class="container__titulo">Flor&Co</h1>
+        </div>
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+
+                <li class="lista_menu-iten"><a href="#" class="lista_menu-link">Plantas</a></li>
+                <li class="lista_menu-iten"><a href="#" class="lista_menu-link">Acessorios</a></li>
+                <li class="lista_menu-iten"><a href="#" class="lista_menu-link">Cuidados com a planta</a></li>
+                <li class="lista_menu-iten"><a href="#" class="lista_menu-link">Comunidade</a></li>
+                <li class="lista_menu-iten"><a href="#" class="lista_menu-link">Contato</a></li>
+            </ul>
+            <li class="opcoes__item"><a class="opcoes__link" href="#">Favoritos</a></li>
+            <li class="opcoes__item"><a class="opcoes__link" href="#">Minhas Compras</a></li>
+
+        </ul>
+
+        <div class="container">
+
+            <a><img src="./img/Favoritos.svg" alt="icone de coração"
+                    class="container_imagem container__imagem-transparente"></a>
+            <a href="#" class="container__link">
+                <img src="./img/sacola (2).svg" alt="icone de sacola" class="container_imagem">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="./img/perfil.svg" alt="icone de perfil" class="container_imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+
+        </div>
+
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo"> Já sabe por onde começar?</h2>
+        <p class="banner__texto">Traga a natureza para dentro de casa com nossas plantas cheias de vida.</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima planta?">
+
+    </section>
+    <section class="carrosel">
+        <h2 class="carrossel__titulo">Tendência de plantas</h2>
+        <div class="swiper">
+            <!-- !usando  swiper para o carrossel cards -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide"><img src="./img/cacto1.jpg" alt="cacto"></div>
+                <div class="swiper-slide"><img src="./img/costela-de-adao.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/suculenta1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/orquidea1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/costela-de-adao.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/costela-de-adao.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/suculenta1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/orquidea1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/costela-de-adao.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/suculenta1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/orquidea1.jpg" alt=""></div>
+            </div>
+
+
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <h2 class="descricao__titulo">Cuidado adequado das plantas</h2>
+                    <p class="card__paragrafo">Cuidar de plantas de interior é uma atividade prazerosa que pode se
+                        transformar em um
+                        verdadeiro hobby</p>
+                    <div class="card__botao">
+                        <button class="card__botao-btn"><a href="#">Explore mais</a></button>
+
+
+                    </div>
+                </div>
+                <img src="./img/regando.jpg" class="descricao__imagem" alt="Mulher regando uma panta ">
+            </div>
+
+    </section>
+    <section class="topicos">
+        <h2 class="topicos__titulo">Plantas por categoria</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Orquideas</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Tropicais</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Rasteiras</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Bonsai</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Para mesa</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Para chão</a>
+            </li>
+        </ul>
+
+    </section>
+
+    <section class="contato">
+        <h2 clas="contato__titulo">Fique por dentro das novidades</h2>
+        <p class="contato__texto">Atualizações sobre novidades, cuidados com a planta, promoção e muito mais.</p>
+        <input type="emai" class="contato__email" placeholder="Cadastre seu e-mail">
+    </section>
+    <hr />
+    <footer class="rodape">
+        <div class="rodape_container">
+            <img src="./img/tree-svgrepo-com.svg" alt="" >
+            <h2 class="rodape__titulo">Flor&Co
+        </div>
+
+        </h2>
+        <ul class="lista-rodape">
+            <li class="lista-rodape__item">
+                <img src="./img/facebook-svgrepo-com.svg" alt="">
+                <a class="lista-rodape__link" href="">Facebook</a>
+
+            </li>
+            <li class="lista-rodape__item">
+                <img src="./img/instagram-svgrepo-com.svg" alt="">
+                <a class="lista-rodape__link" href="">Instagram</a>
+
+            </li>
+            <li class="lista-rodape__item">
+                <img src="./img/linkedin-svgrepo-com.svg" alt="">
+                <a class="lista-rodape__link" href="">Linkedin</a>
+
+            </li>
+
+        </ul>
+
+        <p class="meuNome"> Desenvolvido por Jessica Silva</p>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            }
+        });
+
+    </script>
+</body>
+
+</html>

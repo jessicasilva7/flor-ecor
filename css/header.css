@@ -1,0 +1,146 @@
+.cabecalho_menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+
+}
+
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.container_imagem {
+    padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%
+}
+
+.container_botao:checked~.lista-menu {
+    display: block;
+}
+
+.lista-menu-titulo,
+.lista_menu-iten {
+    padding: 1em;
+    background-color: var(--cor-fundo-menu);
+
+}
+.lista_menu-iten a:hover{
+background-color: var(--cor-fundo-menu);
+padding: .4em;
+border: 1px ;
+
+}
+
+
+.lista-menu-titulo {
+    color: #0f0f0e;
+    font-family: var(--titulo);
+    font-size: 20px;
+
+}
+
+.lista_menu-link {
+    text-decoration: none;
+    color: var(--cor-verde-escuro);
+    font-family: var(--paragrafo);
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.container__titulo {
+    display: none;
+}
+
+.container_botao {
+    display: none;
+}
+
+.opcoes {
+    display: none;
+}
+.container__texto{
+    display: none;
+}
+
+
+@media screen and (min-width:1024px) {
+    .container__titulo {
+        font-size: 30px;
+        font-weight: 400;
+        display: block;
+    }
+
+    .opcoes {
+        display: flex;
+    }
+
+    .opcoes__item {
+        padding: 0 1em;
+        font-family: var(--paragrafo);
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .opcoes__item a {
+        text-decoration: none;
+        color: var(--cor-verde-escuro);
+
+    }
+
+    .container__imagem-transparente {
+        display: none;
+    }
+
+    .cabecalho_menu-hamburguer {
+        display: none;
+    }
+
+    .opcoes__botao:checked~.lista-menu {
+        display: block;
+    }
+
+    .opcoes__botao {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--cor-verde-escuro);
+        
+        
+    }
+    .cabecalho{
+        padding: 0 2em;
+    }
+    .opcoes{
+        margin-right: auto;
+    }
+    .container__texto{
+        display: block;
+    }
+
+}

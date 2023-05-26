@@ -1,0 +1,17 @@
+hr{
+    margin: 0;
+}
+.rodape{
+    background-color: var(--cor-fundo-menu);
+}
+@media screen and (min-width:1024px){
+    .rodape h2{
+        font-size: 30px;
+    }
+    .lista-rodape{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+}
